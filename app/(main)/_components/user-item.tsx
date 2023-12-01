@@ -23,7 +23,8 @@ export const UserItem = () => {
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
                 <div role="button" className="flex items-center text-sm p-3 w-full md:hover:bg-primary/5">
-                    <div className="gap-x-2 flex items-center max-w-[150px]">
+                    <div className="gap-x-2 flex items-center 
+                    max-w-[80px] md:max-w-[150px]">
                         <Avatar className="h-5 w-5">
                             <AvatarImage src={user?.imageUrl} />
                         </Avatar>
@@ -35,7 +36,7 @@ export const UserItem = () => {
                 </div>
             </DropdownMenuTrigger>
             <DropdownMenuContent
-                className="sm:w-50 md:w-80"
+                className="sm:w-50 md:w-60"
                 align="start"
                 alignOffset={11}
                 forceMount
@@ -52,7 +53,7 @@ export const UserItem = () => {
                         </div>
                         <div className="space-y-1">
                             <p className="text-sm line-clamp-1">
-                                {user?.fullName}&apos;s Jotify
+                                {user?.fullName}
                             </p>
                         </div>
                     </div>
