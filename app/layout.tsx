@@ -13,7 +13,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Jotify',
+  title: 'Jotify - Stay Organised',
   description: 'The connected workspace where better, faster work happens',
   icons: {
     icon: [
