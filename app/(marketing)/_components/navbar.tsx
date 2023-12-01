@@ -18,7 +18,7 @@ export const Navbar = () => {
             "z-50 bg-background dark:bg-[#1F1F1F] fixed top-0 flex items-center w-full p-6", scrolled && "border-b shadow-sm"
         )}>
             <Logo />
-            <div className="md:ml-auto md:justify-end w-full flex items-center justify-between gap-x-2">
+            <div className="md:ml-auto justify-end w-full flex items-center gap-x-2">
                 {isLoading && (
                     <Spinner />
                 )}
