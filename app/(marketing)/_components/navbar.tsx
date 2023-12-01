@@ -22,8 +22,7 @@ export const Navbar = () => {
                 {isLoading && (
                     <Spinner />
                 )}
-                {
-                    !isAuthenticated && !isLoading && (
+                {!isAuthenticated && !isLoading && (
                         <>
                             <SignInButton mode="modal">
                                 <Button variant={"ghost"} size={"sm"}>

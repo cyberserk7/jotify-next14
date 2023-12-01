@@ -89,14 +89,14 @@ export const Navigation = () => {
             setIsCollapsed(false);
             setIsResetting(true);
             
-            sidebarRef.current.style.width = isMobile ? "100%" : "240px";
+            sidebarRef.current.style.width = isMobile ? "50%" : "240px";
             navbarRef.current.style.setProperty(
                 "width",
-                isMobile ? "0" : "calc(100%-240px)"
+                isMobile ? "50%" : "calc(100%-240px)"
             );
             navbarRef.current.style.setProperty(
                 "left",
-                isMobile ? "100%" : "240px"
+                isMobile ? "50%" : "240px"
             );
             setTimeout(() => setIsResetting(false), 300);
         }
